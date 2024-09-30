@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:hsl(13, 31%, 94%) ;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.one{
+   display: flex;
+   gap: 40px;
+   padding-top: 20px;
+}
+
+.two{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    
+
+}
+
+.three{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+
+}
+
+.waffle{
+padding-bottom: 20px;
+width: 240px;
+}
+
+.brulee{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.macaron{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.tiramisu{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.baklava{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+
+.pie{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.cake{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.brownie{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.cotta{
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.whole{
+    padding-top:70px ;
+    padding-left:100px ;
+}
+
+p{
+    padding-top: 30px;
+    color: hsl(7, 20%, 60%) ;
+}
+
+.no{
+    color:  hsl(14, 86%, 42%);
+    padding-top: 5px;
+}
+
+.first{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 348px;
+ margin-left: 15px;
+}
+
+.second{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 348px;
+ margin-left: 15px;
+}
+
+.third{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 348px;
+ margin-left: 15px;
+}
+
+.fourth{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 735px;
+ margin-left: 15px;
+}
+
+.fifth{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 735px;
+ margin-left: 15px;
+}
+
+.sixth{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 735px;
+ margin-left: 15px;
+}
+
+.seventh{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 1095px;
+ margin-left: 15px;
+}
+
+.eighth{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 1095px;
+ margin-left: 15px;
+}
+
+.nineth{
+    background-color: white;
+    width: 140px;
+    border: 0.001px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    height: 40px;
+    position: absolute;
+ top: 0%;
+ margin-top: 1095px;
+ margin-left: 15px;
+}
+
+
+
+.cart{
+    background-color: white;
+    width: 320px;
+    height: 250px;
+    padding: 10px;
+    align-items:center;
+    margin-top: 70px;
+    position:fixed;
+    margin-left: 950px;
+    border-radius: 10px;
+    
+}
+
+.downn{
+margin-left:80px;  
+}
+
+.full{
+    display: flex;
+    gap: 20px;
+}
+
+.last{
+    color: hsl(7, 20%, 60%);
+    margin-left:20px ;
+
+}
+
+@media screen and (max-width:600px) {
+    .waffle{
+    
+    }
+    .ex{
+        width: 300px;
+        height: 190px;
+    }
+    
+    .one{
+        display: block;
+        
+    } 
+
+    .two{
+        display: block;
+    }
+
+    .three{
+        display: block;
+    }
+
+    .whole{
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 10px;
+        display: block;
+    }
+
+    .first{
+ margin-top: 250px;
+ margin-left: 30px;
+}
+
+.second{
+ margin-top: 565px;
+ margin-left: 30px;
+}
+
+.third{
+ margin-top: 850px;
+ margin-left:30px;
+}
+
+.fourth{
+ margin-top: 1160px;
+ margin-left: 30px;
+}
+
+.fifth{
+ margin-top: 1450px;
+ margin-left: 30px;
+}
+
+.sixth{
+ margin-top: 1740px;
+ margin-left: 30px;
+}
+
+.seventh{
+ margin-top: 2050px;
+ margin-left: 30px;
+}
+
+.eighth{
+ margin-top: 2335px;
+ margin-left: 60px;
+}
+
+.nineth{
+ margin-top: 2620px;
+ margin-left: 30px;
+}
+
+.cart{
+    position: relative;
+    margin: 0px;
+    padding: 5px;
+    width: 290px;
+    height: 230px;
+    margin-left: 10px;
+}
+
+.full{
+    display: block;
+
+}
+
+
+}
